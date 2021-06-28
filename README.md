@@ -1,6 +1,7 @@
 # UE4Study
 ## 网络
 HasAuthority();服务端返回true
+
 bReplicates = true;
 ### Property replicated
 - C++

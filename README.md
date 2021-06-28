@@ -16,9 +16,15 @@ bReplicates = true;
   1. 定义
     OnRep();//服务端，客户端都会调用
 
-### Ownership 所有权
+### Ownership 所有权（）
+  - RPC 需要确定哪个客户端将执行运行于客户端的RPC
+  - Actor 复制与连接相关性
+  - 在涉及所有者时的Actor属性复制条件
 #### 术语
   
-  1. Connection
-  2. PlayerController
+  1. Connection :代表一个玩家连接
+  2. PlayerController 
+  可以追述(Owner())到playercontroller 的对象就拥有所有权
   3. 
+  
+  

@@ -15,3 +15,10 @@ bReplicates = true;
 - 蓝图
   1. 定义
     OnRep();//服务端，客户端都会调用
+
+  ### Ownership 所有权
+  #### 术语
+  
+    1. Connection
+    2. PlayerController
+    3. 

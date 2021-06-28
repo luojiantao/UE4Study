@@ -2,7 +2,7 @@
 ## 网络
 HasAuthority();服务端返回true
 
-###Property replicated
+### Property replicated
 - C++
   1. 声明
     UROPERTY(ReplicatedUsing=Func)

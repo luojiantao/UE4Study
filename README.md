@@ -40,3 +40,12 @@ bReplicates = true;
     - possess, Unpossess 
   
   
+### Actor Role
+
+#### Authority
+server
+拥有对actor控制权
+#### Simulated Proxy
+Client中的其他客户端connection
+#### Autinomous Proxy
+Client中的代表自己的connection

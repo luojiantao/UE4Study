@@ -30,6 +30,11 @@ bReplicates = true;
   1. Connection :代表一个玩家连接
   2. PlayerController 
   可以追述(Owner())到playercontroller 的对象就拥有所有权
-  3. 
+
+#### 操作
+  1. set owner
+    - 生成对象时，设置owner
+    - 调用函数SetOwner
+    - possess, Unpossess 
   
   

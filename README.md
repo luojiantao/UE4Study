@@ -9,9 +9,14 @@ bReplicates = true;
     UROPERTY(ReplicatedUsing=Func)
   2. 定义
     UFUNCTION()
+  ```c++  
     void OnRep();//服务端不会调用，客户端会调用
+    
     void GetLifetimeReplicatedProps(Tarry<FLifetimeProperty>& OutLifetimeProps) const;
-  
+    {
+      DOREPLIFETINE(类名称，变量名);
+    }
+  ```
 - 蓝图
   1. 定义
     OnRep();//服务端，客户端都会调用
